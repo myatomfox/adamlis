@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>TF</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            margin: 0;
+            padding-top: 20px; /* Adjust this value to move content closer to the top */
+            padding-bottom: 30px; /* Adjust this value to move content closer to the top */
+            font-family: Arial, sans-serif;
+            background-color: #2C2C2C;
+            text-align: center;
+            color: #343434;
+        }
+        h1 {
+            font-size: 46px;
+            color: #BDBEBC;
+            margin-bottom: 5px;
+        }
+        .button {
+            display: block;
+            width: 80%;
+            max-width: 300px;
+            margin: 10px;
+            padding: 15px;
+            font-size: 24px;
+            color: #000000;
+            border: none;
+            border-radius: 9px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .current-project-library {
+            background-color: #D8375D;
+        }
+        .current-project-library:hover {
+            background-color: #F3678C;
+            color: #F3F2F0;
+        }
+        .email {
+            background-color: #638F39;
+        }
+        .email:hover {
+            background-color: #8AB364;
+            color: #F3F2F0;
+        }
+        .contact-card {
+            background-color: #108AE4;
+        }
+        .contact-card:hover {
+            background-color: #4FADF2;
+            color: #F3F2F0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Adam Lis</h1>
+    <a class="button current-project-library" href="https://docs.google.com/spreadsheets/d/1LU5oQhG7cfc1XjsayPnnbykFR0F6VaUgF7nVMgIl6U4/edit?usp=sharing">Current Project Library</a>
+    <a class="button email" href="mailto:g.adam.lis@gmail.com">E-Mail</a>
+    <a class="button contact-card" href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0AVERSION%3A3.0%0AFN%3AAdam%20Lis%0AN%3AAdam%3BLis%0ATEL%3BTYPE%3DCELL%3A201-334-6878%0AEMAIL%3Ag.adam.lis%40gmail.com%0AEND%3AVCARD"
+    download="Adam_Lis_Contact.vcf">Contact Card</a>
+</body>
+</html>
